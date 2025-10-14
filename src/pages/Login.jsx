@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import { loginUser } from '../api';
 import { Mail, Lock, Eye, EyeOff, LoaderCircle } from 'lucide-react';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.svg';
 
 const Login = () => {
     const navigate = useNavigate();
